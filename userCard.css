@@ -1,0 +1,77 @@
+body{
+    display:flex;
+    align-items:center;
+}
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.topHalf{
+    background-color:cornflowerblue;
+    outline: 3px solid cornflowerblue;
+    height: 100px;
+    width: 800px;
+}
+
+.profileIcon{
+    width:100px;
+    border:3px solid grey;
+    border-radius: 500px;
+    padding-top:4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    background: white;
+
+    position: relative;
+    bottom: -50px;
+    right: -20px;
+    /* border: 3px solid grey; */
+}
+
+.bottomHalf{
+    background-color:antiquewhite;
+    outline: 3px solid grey;
+    height: 250px;
+    width: 800px;
+    margin-top:5px;
+    padding-top: 80px;
+}
+
+.bottomContainer{
+    margin-left: 50px;
+}
+
+.name{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+}
+
+.content{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+}
+
+.location{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+}
+
+
+.editProfile{
+    display: flex;
+}
+
+.gearIcon{
+    margin-right: 10px;
+}
+
+a{
+    color: cornflowerblue;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
